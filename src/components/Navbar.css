@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo on left, links move to the center with a trick below */
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #f178dd;
+  cursor: pointer;
+  flex: 1; /* forces logo to the far left */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0 auto; /* centers it horizontally */
+  padding: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-links a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #f178dd;
+}

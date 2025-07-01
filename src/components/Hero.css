@@ -1,0 +1,84 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  background-color: #fff;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 600px;
+  animation: fadeIn 1.2s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.typing {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #f178dd;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn:hover {
+  background-color: #f178dd;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 102, 0, 0.4);
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+.bouncy-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

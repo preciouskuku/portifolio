@@ -1,0 +1,77 @@
+.contact-page {
+  padding: 80px 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-page h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.contact-page p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.25s ease;
+}
+
+.btn:hover {
+  background-color: #e65500;
+  transform: scale(1.05);
+}
+
+.btn.secondary {
+  background-color: #222;
+}
+
+.btn.secondary:hover {
+  background-color: #000;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #222;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ff6600;
+}
+
+.contact-page a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}

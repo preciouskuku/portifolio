@@ -1,0 +1,45 @@
+.hire-me {
+  padding: 80px 40px;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+.hire-me h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hire-me p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #e65500;
+}
+
+.btn.secondary {
+  background-color: #222;
+}
+
+.btn.secondary:hover {
+  background-color: #000;
+}
