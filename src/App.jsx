@@ -26,7 +26,7 @@ export default function App() {
 
         
 
-        {/* Add more routes if needed */}
+      
       </Routes>
 
       <Footer />
