@@ -4,15 +4,23 @@ import './Projects.css';
 const projects = [
   {
     title: 'WebScapper',
-    description: 'My project using python.',
+    description: 'My project using Python to scrape job data.',
     link: 'https://github.com/preciouskuku/web-scrapper.git',
-    
   },
   {
     title: 'Buildlink Zimbabwe',
-    description: 'A constuction website',
+    description: 'A construction website for services and suppliers.',
     link: 'https://github.com/preciouskuku/buildlink-website.git',
-    
+  },
+  {
+    title: 'Crop Detection App',
+    description: 'A smart farming app that detects crop diseases using AI and provides treatment suggestions.',
+    link: 'https://github.com/preciouskuku/crop-detection-app.git',
+  },
+  {
+    title: 'Smart Apply App',
+    description: 'An intelligent platform that helps farmers apply for resources, track usage, and optimize farming operations.',
+    link: 'https://github.com/preciouskuku/smart-apply-app.git',
   },
 ];
 
