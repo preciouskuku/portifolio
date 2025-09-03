@@ -12,7 +12,7 @@ const projects = [
     title: 'Buildlink Zimbabwe',
     description: 'A construction website for services and suppliers.',
     link: 'https://github.com/preciouskuku/buildlink-website.git',
-    image:'./src/assets/buildlnk.jpg',
+    image:'/imgs/buildlnk.jpg',
   },
   {
     title: 'Crop Detection App',
