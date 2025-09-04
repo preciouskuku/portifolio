@@ -1,6 +1,15 @@
 import React from 'react';
 import './HireMe.css';
-import { FaCode, FaDesktop, FaServer, FaLightbulb, FaTachometerAlt, FaShieldAlt } from 'react-icons/fa';
+import { 
+  FaCode, 
+  FaDesktop, 
+  FaServer, 
+  FaLightbulb, 
+  FaTachometerAlt, 
+  FaShieldAlt,
+  FaRobot, 
+  FaMobileAlt
+} from 'react-icons/fa';
 
 export default function HireMe() {
   return (
@@ -72,6 +81,26 @@ export default function HireMe() {
             <p>
               Identifying vulnerabilities and implementing best practices to secure 
               your web applications and data.
+            </p>
+          </div>
+
+          {/* New AI Service */}
+          <div className="service-card">
+            <FaRobot className="service-icon" />
+            <h4>AI & Machine Learning</h4>
+            <p>
+              Designing intelligent solutions powered by machine learning and AI 
+              to drive innovation and smarter decision-making.
+            </p>
+          </div>
+
+          {/* New Mobile App Service */}
+          <div className="service-card">
+            <FaMobileAlt className="service-icon" />
+            <h4>Mobile App Development</h4>
+            <p>
+              Creating high-performance mobile apps for Android and iOS, delivering 
+              seamless user experiences across devices.
             </p>
           </div>
         </div>
