@@ -1,40 +1,78 @@
+/* Navbar Container */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Logo on left, links move to the center with a trick below */
+  justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: white;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
+/* Logo */
 .navbar-logo {
-  font-weight: 700;
-  font-size: 24px;
-  color: #f178dd;
-  cursor: pointer;
-  flex: 1; /* forces logo to the far left */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff4fa1;
+  letter-spacing: 1px;
 }
 
+/* Links */
 .navbar-links {
   display: flex;
-  gap: 30px;
   list-style: none;
-  margin: 0 auto; /* centers it horizontally */
-  padding: 0;
-  flex: 1;
-  justify-content: center;
+  gap: 1.5rem;
 }
 
-.navbar-links a {
-  color: #333;
-  font-weight: 600;
+.navbar-links li a {
   text-decoration: none;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s;
 }
 
-.navbar-links a:hover {
-  color: #f178dd;
+.navbar-links li a:hover {
+  color: #ff4fa1;
+}
+
+/* Active link highlight */
+.navbar-links li a.active {
+  color: #ff4fa1;
+  font-weight: 600;
+  border-bottom: 2px solid #ff4fa1;
+}
+
+/* Mobile Menu */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-links.active {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
