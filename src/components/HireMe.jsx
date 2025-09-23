@@ -109,7 +109,7 @@ export default function HireMe() {
       {/* Final CTA */}
       <div className="hire-cta">
         <h3>Ready to Start Your Project?</h3>
-        <a href="mailto:Preciouskukumutema@gmail.com" className="btn secondary">
+        <a href="mailto:Preciouskmutema@gmail.com" className="btn secondary">
           Let’s Collaborate
         </a>
       </div>

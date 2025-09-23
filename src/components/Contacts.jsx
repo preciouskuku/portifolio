@@ -34,8 +34,9 @@ export default function Contact() {
           {/* Direct Contact */}
           <div className="contact-box">
             <h4>Direct Contact</h4>
-            <p><FaEnvelope /> preciouskukumutema@gmail.com</p>
-            <p><FaPhone /> +263 71 389 5910</p>
+            <p><FaEnvelope /> <a href="mailto:preciouskmutema@gmail.com">preciouskmutema@gmail.com</a></p>
+            <p><FaPhone /> <a href="tel:+263713895910">+263 71 389 5910</a></p>
+
           </div>
 
           {/* Social Media */}
