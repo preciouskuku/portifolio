@@ -10,19 +10,19 @@ export default function About() {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            I’m Precious, a versatile and driven Full-Stack Developer with hands-on experience
-            in building scalable web applications using <strong>React, Node.js, Express, and PostgreSQL</strong>.
-            I’m skilled in both frontend and backend development, with a strong foundation
-            in database design, API integration, and responsive UI design.
+            Hi, I’m <strong>Precious</strong> — a passionate and versatile <strong>Full-Stack Developer</strong> 
+            with a knack for building clean, scalable, and user-friendly web applications. 
+            I specialize in modern technologies like <strong>React, Node.js, Express, and PostgreSQL</strong>, 
+            and I enjoy working across both frontend and backend to bring ideas to life.
           </p>
           <p>
-            I enjoy working with tools like <strong>Supabase, Firebase, and GitHub</strong> for
-            streamlined development and deployment. My passion lies in crafting
-            user-centered solutions and exploring emerging technologies like <strong>AI</strong> and
-            <strong> Cloud Computing</strong> to deliver impactful digital products.
+            Beyond the core stack, I often leverage tools such as <strong>Supabase, Firebase, and GitHub</strong> 
+            to streamline development and deployment. I’m deeply interested in creating meaningful 
+            digital experiences and exploring emerging technologies like <strong>AI</strong> and 
+            <strong> Cloud Computing</strong> to solve real-world challenges.
           </p>
 
-          <h3>Skills I Have</h3>
+          <h3>Technical Skills</h3>
           <ul className="skills-list">
             <li>React</li>
             <li>Next.js</li>
