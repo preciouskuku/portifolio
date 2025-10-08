@@ -26,7 +26,7 @@ const projects = [
     code: "https://github.com/preciouskuku/plant-iq",
     demo: "https://plant-iq-rho.vercel.app/",
     image: "/imgs/PlantIQ - Google Chrome 9_3_2025 1_21_25 PM.png",
-    tags: ["React", "AI", "Tailwind"],
+    tags: ["React", "AI", "TensorFlow" ,"Python" ],
   },
   {
     title: "Smart Apply App",
